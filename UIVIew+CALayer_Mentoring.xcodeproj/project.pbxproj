@@ -54,12 +54,12 @@
 		7E5E0B2C25ED6CC40009341F /* UIVIew+CALayer_Mentoring */ = {
 			isa = PBXGroup;
 			children = (
+				7E5E0B3B25ED6CC80009341F /* Info.plist */,
 				7E5E0B2D25ED6CC40009341F /* AppDelegate.swift */,
 				7E5E0B4B25F16F560009341F /* ViewControllers */,
 				7E5E0B4A25F16F4D0009341F /* View */,
 				7E5E0B4D25F16F780009341F /* Resources */,
 				7E5E0B4C25F16F6D0009341F /* Launch */,
-				7E5E0B4E25F16F800009341F /* SupportFiles */,
 			);
 			path = "UIVIew+CALayer_Mentoring";
 			sourceTree = "<group>";
@@ -94,14 +94,6 @@
 				7E5E0B3625ED6CC80009341F /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		7E5E0B4E25F16F800009341F /* SupportFiles */ = {
-			isa = PBXGroup;
-			children = (
-				7E5E0B3B25ED6CC80009341F /* Info.plist */,
-			);
-			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

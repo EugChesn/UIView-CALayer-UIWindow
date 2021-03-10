@@ -31,7 +31,7 @@ class RootViewController: UIViewController {
         
         //MARK: - setupMainView
         
-        mainView = CustomView(backgroundColor: .green, text: "Nikolay Truchin")
+        mainView = CustomView(backgroundColor: .green, text: "Main")
         self.view.addSubview(mainView)
         NSLayoutConstraint.activate([mainView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
                                      view.trailingAnchor.constraint(equalTo: mainView.trailingAnchor, constant: 20),
@@ -41,7 +41,7 @@ class RootViewController: UIViewController {
         
         //MARK: - setupSecondView
         
-        secondView = CustomView(backgroundColor: .red, text: "Andrey Kozlov", shadow: true)
+        secondView = CustomView(backgroundColor: .red, text: "Second", shadow: true)
         self.view.addSubview(secondView)
         self.view.addConstraints([secondView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
                                   secondView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
